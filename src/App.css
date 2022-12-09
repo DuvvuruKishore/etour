@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.App{
+  text-align:center;
+  background-color:grey;
+  height:100vh
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-jumbotron {
+  background-image: url("./images/etour.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#youtube-btn {
+  border-color: #f83f37;
+  color: #f83f37;
+}
+#youtube-btn:hover {
+  background-color: #f83f37;
+  color: #ffffff;
+}
+#contact{
+  padding-top: 70px;
+}
+.Board {
+  width: 300px; 
+   height: 230px;
+  border: 2px solid black;
+  margin-top:"50px"
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Board_onedata{
+  position: relative;
+  
+
+}
+.sub_div {
+  position: absolute;
+  bottom: 0px;
+  /* background-color:red; */
+  color:red
+}
+.Board_twodata{
+  position: relative;
+}
+.sub_div1 {
+  position: absolute;
+  bottom: 0px;
+  /* background-color:red; */
+  color:red
+}
+.Board_Three{
+  position: relative;
+}
+.sub_div3 {
+  position: absolute;
+  bottom: 0px;
+  /* background-color:red; */
+  color:red
 }
 
-.App-link {
-  color: #61dafb;
+.Board_four{
+  position: relative;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub_div4 {
+  position: absolute;
+  bottom: 0px;
+  /* background-color:red; */
+  color:red
 }
